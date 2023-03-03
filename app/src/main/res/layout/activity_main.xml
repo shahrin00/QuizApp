@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="What Is the Longest Sea Beach in the world?"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:layout_marginBottom="30sp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioBTN1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cox's Bazar Sea Beach."
+            android:fontFamily="serif"
+            android:textSize="18dp"/>
+        <RadioButton
+            android:id="@+id/radioBTN2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bali Sea Beach."
+            android:fontFamily="serif"
+            android:textSize="18dp"/>
+        <RadioButton
+            android:id="@+id/radioBTN3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saint Martin Sea Beach."
+            android:fontFamily="serif"
+            android:textSize="18dp"/>
+
+
+
+    </RadioGroup>
+
+    <Button
+        android:onClick="nextBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_gravity="center"
+        android:layout_marginTop="80sp"/>
+
+
+</LinearLayout>
